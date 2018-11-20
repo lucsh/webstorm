@@ -1,7 +1,10 @@
 <application>
   <component name="FileTypeManager" version="17">
     <extensionMap>
+      <mapping pattern=".prisma" type="GraphQL" />
+      <mapping ext="prisma" type="GraphQL" />
       <mapping pattern="personas" type="JavaScript" />
+      <mapping pattern=".gitkeep" type="PLAIN_TEXT" />
       <mapping ext="conf" type="PLAIN_TEXT" />
     </extensionMap>
   </component>
