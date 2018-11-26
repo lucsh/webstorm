@@ -6,6 +6,7 @@
       <mapping pattern="personas" type="JavaScript" />
       <mapping pattern=".gitkeep" type="PLAIN_TEXT" />
       <mapping ext="conf" type="PLAIN_TEXT" />
+      <mapping ext="env-dev" type="PLAIN_TEXT" />
     </extensionMap>
   </component>
 </application>
