@@ -1,5 +1,5 @@
 <templateSet group="JavaScript">
-  <template name="log" value="console.log(&#10;'%c &lt; $PARAM$ &gt; ', &#10;'background: #181718; color: #white; line-height:110%'&#10;);&#10;console.log($PARAM$);&#10;console.log(&#10;'%c &lt; $PARAM$ /&gt; ', &#10;'background: #181718; color: #white; line-height:110%'&#10;);&#10;$END$&#10;" description="Inserts console.log(‘’);" toReformat="false" toShortenFQNames="true">
+  <template name="log" value="console.log(&#10;' &lt; $PARAM$ &gt; '&#10;);&#10;console.log($PARAM$);&#10;console.log(&#10;' &lt; $PARAM$ /&gt; '&#10;);&#10;$END$&#10;" description="Inserts console.log(‘’);" toReformat="false" toShortenFQNames="true">
     <variable name="PARAM" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_SCRIPT" value="true" />
