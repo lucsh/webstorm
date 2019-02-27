@@ -5,4 +5,11 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
+  <template name="logg" value="Logger.$LEVEL$('&lt; $PARAM$');&#10;Logger.$LEVEL$($PARAM$);&#10;Logger.$LEVEL$('$PARAM$ /&gt;');&#10;$END$" description="Inserts Logger" toReformat="false" toShortenFQNames="true">
+    <variable name="LEVEL" expression="" defaultValue="i" alwaysStopAt="true" />
+    <variable name="PARAM" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
 </templateSet>
