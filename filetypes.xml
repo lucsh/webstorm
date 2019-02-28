@@ -8,6 +8,7 @@
       <mapping pattern=".gitkeep" type="PLAIN_TEXT" />
       <mapping ext="env-dev" type="PLAIN_TEXT" />
       <mapping ext="conf" type="PLAIN_TEXT" />
+      <mapping ext="staging" type="PLAIN_TEXT" />
       <mapping ext="perl" type="Perl" />
     </extensionMap>
   </component>
