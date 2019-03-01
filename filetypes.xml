@@ -1,13 +1,14 @@
 <application>
   <component name="FileTypeManager" version="17">
     <extensionMap>
+      <mapping pattern="Dockerfile.*" type="Dockerfile" />
       <mapping pattern=".prisma" type="GraphQL" />
       <mapping ext="prisma" type="GraphQL" />
       <mapping pattern="personas" type="JavaScript" />
       <mapping pattern=".dockerignore" type="PLAIN_TEXT" />
       <mapping pattern=".gitkeep" type="PLAIN_TEXT" />
-      <mapping ext="env-dev" type="PLAIN_TEXT" />
       <mapping ext="conf" type="PLAIN_TEXT" />
+      <mapping ext="env-dev" type="PLAIN_TEXT" />
       <mapping ext="staging" type="PLAIN_TEXT" />
       <mapping ext="perl" type="Perl" />
     </extensionMap>
